@@ -7,23 +7,23 @@
 }
 
 void loop() {
-    pinMode(6, OUTPUT);
-     digitalWrite(6, 0);
-    pinMode(7, OUTPUT);
-     digitalWrite(7, 1);
-    pinMode(8, OUTPUT);
-     digitalWrite(8, 0);
-    pinMode(9, OUTPUT);
-     digitalWrite(9, 1);
-    delay(1000);
+    pinMode(3, OUTPUT);
+     digitalWrite(3, 0);
+    pinMode(4, OUTPUT);
+     digitalWrite(4, 1);
+    pinMode(5, OUTPUT);
+     digitalWrite(5, 0);
     pinMode(6, OUTPUT);
      digitalWrite(6, 1);
-    pinMode(7, OUTPUT);
-     digitalWrite(7, 0);
-    pinMode(8, OUTPUT);
-     digitalWrite(8, 1);
-    pinMode(9, OUTPUT);
-     digitalWrite(9, 0);
+    delay(1000);
+    pinMode(3, OUTPUT);
+     digitalWrite(3, 1);
+    pinMode(4, OUTPUT);
+     digitalWrite(4, 0);
+    pinMode(5, OUTPUT);
+     digitalWrite(5, 1);
+    pinMode(6, OUTPUT);
+     digitalWrite(6, 0);
     delay(1000);
 
 } 
